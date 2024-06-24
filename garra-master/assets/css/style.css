@@ -528,7 +528,9 @@ body {
 
 .cta-banner { display: none; }
 
-.cta-content { padding-block: 80px var(--section-padding); }
+.cta-content { padding-block: 80px var(--section-padding); 
+z-index: 1000;
+}
 
 .cta .section-title {
   text-align: left;
@@ -803,7 +805,8 @@ body {
    * CTA
    */
 
-  .cta .img { width: 0px; }
+  .cta .img { width: 400px; padding-bottom: 100px;}
+  
 
   .cta .h2 { --fs-2: 3.2rem; }
 
